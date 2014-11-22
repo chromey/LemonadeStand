@@ -13,6 +13,11 @@
 		830F97C71A20D324006DE817 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830F97C61A20D324006DE817 /* Images.xcassets */; };
 		830F97CA1A20D324006DE817 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830F97C81A20D324006DE817 /* LaunchScreen.xib */; };
 		830F97D61A20D324006DE817 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F97D51A20D324006DE817 /* LemonadeStandTests.swift */; };
+		830F97E61A20D96C006DE817 /* Lemonade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F97E51A20D96C006DE817 /* Lemonade.swift */; };
+		830F97E81A20DADC006DE817 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F97E71A20DADC006DE817 /* Flavor.swift */; };
+		830F97EA1A20DF04006DE817 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F97E91A20DF04006DE817 /* Customer.swift */; };
+		830F97EC1A20DF1B006DE817 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F97EB1A20DF1B006DE817 /* Util.swift */; };
+		830F97EE1A20E3F9006DE817 /* LemonadeStand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F97ED1A20E3F9006DE817 /* LemonadeStand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		830F97CF1A20D324006DE817 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		830F97D41A20D324006DE817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830F97D51A20D324006DE817 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		830F97E51A20D96C006DE817 /* Lemonade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lemonade.swift; sourceTree = "<group>"; };
+		830F97E71A20DADC006DE817 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		830F97E91A20DF04006DE817 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		830F97EB1A20DF1B006DE817 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		830F97ED1A20E3F9006DE817 /* LemonadeStand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemonadeStand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +88,15 @@
 			isa = PBXGroup;
 			children = (
 				830F97BF1A20D324006DE817 /* AppDelegate.swift */,
+				830F97E91A20DF04006DE817 /* Customer.swift */,
+				830F97E71A20DADC006DE817 /* Flavor.swift */,
+				830F97E51A20D96C006DE817 /* Lemonade.swift */,
+				830F97ED1A20E3F9006DE817 /* LemonadeStand.swift */,
+				830F97EB1A20DF1B006DE817 /* Util.swift */,
 				830F97C11A20D324006DE817 /* ViewController.swift */,
-				830F97C31A20D324006DE817 /* Main.storyboard */,
 				830F97C61A20D324006DE817 /* Images.xcassets */,
 				830F97C81A20D324006DE817 /* LaunchScreen.xib */,
+				830F97C31A20D324006DE817 /* Main.storyboard */,
 				830F97BD1A20D324006DE817 /* Supporting Files */,
 			);
 			path = LemonadeStand;
@@ -212,7 +227,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830F97EC1A20DF1B006DE817 /* Util.swift in Sources */,
 				830F97C21A20D324006DE817 /* ViewController.swift in Sources */,
+				830F97E61A20D96C006DE817 /* Lemonade.swift in Sources */,
+				830F97EA1A20DF04006DE817 /* Customer.swift in Sources */,
+				830F97EE1A20E3F9006DE817 /* LemonadeStand.swift in Sources */,
+				830F97E81A20DADC006DE817 /* Flavor.swift in Sources */,
 				830F97C01A20D324006DE817 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
