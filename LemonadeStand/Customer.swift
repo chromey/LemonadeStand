@@ -22,4 +22,8 @@ class Customer {
             preferredFlavor = Flavor.Diluted
         }
     }
+    
+    func likes(lemonade: Lemonade) -> Bool {
+        return preferredFlavor == lemonade.flavor
+    }
 }

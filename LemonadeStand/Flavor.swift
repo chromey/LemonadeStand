@@ -8,6 +8,17 @@
 
 import Foundation
 
-enum Flavor {
+enum Flavor: Printable {
     case Acidic, Neutral, Diluted
+    
+    var description: String {
+        switch self {
+        case Acidic:
+            return "Acidic"
+        case Neutral:
+            return "Neutral"
+        case Diluted:
+            return "Diluted"
+        }
+    }
 }
