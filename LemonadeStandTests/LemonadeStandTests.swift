@@ -53,7 +53,7 @@ class LemonadeStandTests: XCTestCase {
         
         Game.lemonadeStand = stand
         println("Budget before: \(stand.budget)")
-        Game.newDay()
+        Game.startDay()
         println("Budget after: \(stand.budget)")
         
         XCTAssertEqual(stand.lemonsInMix, 0)

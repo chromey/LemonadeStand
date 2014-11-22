@@ -9,7 +9,7 @@
 import Foundation
 
 class LemonadeStand {
-    var budget = 10
+    var budget = 20
     var lemonsInInventory = 1
     var iceCubesInInventory = 1
     
